@@ -1,0 +1,25 @@
+// base grid
+@import "grid";
+// fonts
+@import "fonts";
+// colors
+@import "colors";
+// common settings
+@import "interface";
+// slick library
+@import "slick";
+
+@import "sections/navbar";
+@import "sections/hero";
+@import "sections/offer";
+@import "sections/features";
+@import "sections/catalogue";
+@import "sections/blog-list";
+@import "sections/price";
+@import "sections/steps";
+@import "sections/reviews";
+@import "sections/factory";
+@import "sections/contacts";
+@import "sections/questions";
+@import "sections/footer";
+@import "sections/before";

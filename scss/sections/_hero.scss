@@ -1,0 +1,28 @@
+.hero {
+  background: $bg-secondary url("../img/hero/hero-bg.jpg") no-repeat center top 80px;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 270px;
+  // to count for .navbar__menu-button has height: 80px.
+  // margin-top: 80px;
+
+  &__title {
+    max-width: 262px;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  &__subtitle {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 67px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+    background-size: 100%;
+    background-position: top 60px right;
+  }
+}
